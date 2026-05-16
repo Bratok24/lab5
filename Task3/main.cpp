@@ -7,8 +7,8 @@
 
 int main() {
     #ifdef _WIN32
-    SetConsoleOutputCP(CP_UTF8);   // ← вот это главное
-    SetConsoleCP(CP_UTF8);         // для корректного ввода тоже
+    SetConsoleOutputCP(CP_UTF8);  
+    SetConsoleCP(CP_UTF8);        
     #endif
     
     std::cout << "[main] Запуск программы." << std::endl;
