@@ -1,6 +1,4 @@
-#ifndef BIGINT_H
-#define BIGINT_H
-
+#pragma once
 #include <vector>
 #include <iostream>
 
@@ -17,5 +15,3 @@ public:
 
     static BigInt powerOfTwo(int n);
 };
-
-#endif
