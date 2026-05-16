@@ -1,6 +1,2 @@
-#ifndef LOGIC_H
-#define LOGIC_H
-
+#pragma once
 int custom_divide(int dividend, int divisor);
-
-#endif
